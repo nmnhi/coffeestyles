@@ -19,3 +19,7 @@
 .ct-top-menu-expanded {
   @apply absolute top-10 z-50 w-full bg-white text-center animate-slideDown;
 }
+
+.ct-button {
+  @apply text-center uppercase tracking-widest py-[18px] px-[24px] text-[12px] font-semibold cursor-pointer hover:bg-opacity-95;
+}
