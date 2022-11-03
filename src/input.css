@@ -6,7 +6,7 @@
 
 /* ct = custom */
 .ct-top-menu-item {
-  @apply cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:lg:left-0 after:lg:bg-light-coffee after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-300 transition-colors duration-300;
+  @apply cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:lg:left-0 after:lg:bg-coffee-200 after:h-0.5 after:w-0 hover:after:w-full after:transition-all after:ease-in-out after:duration-300 transition-colors duration-300;
 }
 
 .ct-icon {
@@ -22,4 +22,13 @@
 
 .ct-button {
   @apply text-center uppercase tracking-widest py-[18px] px-[24px] text-[12px] font-semibold cursor-pointer hover:bg-opacity-95;
+}
+.ct-subheadeline {
+  @apply flex justify-center items-center mb-24;
+}
+.ct-subheadline-lable {
+  @apply text-center uppercase mx-4 tracking-widest text-gray-500 font-medium text-[12px];
+}
+.ct-subheadline-deco-line {
+  @apply w-8 h-px bg-gray-200;
 }
