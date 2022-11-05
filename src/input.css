@@ -21,7 +21,7 @@
 }
 
 .ct-button {
-  @apply text-center uppercase tracking-widest py-[18px] px-[24px] text-[12px] font-semibold cursor-pointer hover:bg-opacity-95;
+  @apply text-center uppercase tracking-widest py-[18px] px-[24px] text-xs font-semibold cursor-pointer hover:bg-opacity-95;
 }
 .ct-subheadeline {
   @apply flex justify-center items-center mb-24;
@@ -31,4 +31,8 @@
 }
 .ct-subheadline-deco-line {
   @apply w-8 h-px bg-gray-200;
+}
+
+.ct-button-all {
+  @apply uppercase tracking-wider py-4 px-8 text-sm font-semibold cursor-pointer hover:bg-opacity-90 text-center;
 }
